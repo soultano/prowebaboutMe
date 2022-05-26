@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background: url("..//images/header_bg.png") no-repeat;
+    height: 800px;
+    
+}
+.header-content {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlogo {
+    color: white;
+    text-decoration: none; /* отключает подчеркивание у ссылки */
+    background: black;
+    display: inline-block; /* строчно блочный */
+    padding: 10px 5px;
+    font-size: 25px; 
+    font-family: arial;
+    font-weight: bold; /* задает жирность шрифта */
+    text-transform: uppercase; /* делает все буквы заглавными */
+    
+}
+.nav-message {
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+    }
+.header-title {
+        color: white;
+        text-transform: uppercase;
+        font-family: arial;
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .header-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
+        justify-content: center;
+    }
+    .header-call {
+        display: flex;
+        background: white;
+        color: black;
+        width: 300px;
+        justify-content: center;
+        padding: 15px 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: arial;
+        font-weight: bold;
+        
+        }
+        .main {
+            max-width: 1110px;
+            width: 100%;
+            margin: 0 auto;   
+             }
+        .about-title {
+            text-align: center;
+            text-transform: uppercase;
+            font-family: arial;
+             }
+        .about-description {
+                 text-align: center;
+                 font-family: Arial;
+                 margin: 30px 0;
+              }
+              .about-link {
+                display: flex;
+                background: black;
+                color: white;
+                width: 300px;
+                justify-content: center;
+                padding: 15px 0;
+                margin: 0 auto;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: arial;
+              }
+              .myworks-title {
+                  text-align: center;
+                  text-transform: uppercase;
+                  font-family: arial;
+                  margin: 50px 0;
+                    }
+                .card {
+                max-width: 350px;
+                width: 100%;
+                border: 1px solid black;
+                padding: 15px 5px;
+                margin: 10px auto;
+              }
+                .card-img {
+                width: 100%;
+                
+            }
+                .card-title {
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-family: arial;
+                    margin-bottom: 15px;
+                }
+                .card-description {
+                    text-align: center;
+                    font-family: arial;
+                    margin-bottom: 15px;
+                }
+                .card-link{
+                    display: block;
+                    text-align: center;
+                    border-radius: 5px;
+                    background:  black;
+                    color: white;
+                    width: 150px;
+                    font-family: arial;
+                    text-transform: uppercase;
+                    margin: 0 auto ;
+                    text-decoration: none;
+                    padding: 12px 0;
+                    }
+                    .gallery {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between
+                        
+                    }
+    .footer {
+        background: black;
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-link {
+        margin-right: 30px;
+    }
